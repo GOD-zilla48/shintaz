@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'screen/splash_screen.dart';
-import 'screen/login_screen.dart';
-import 'screen/sign_up_screen.dart';
-import 'screen/home_screen.dart';
+// Fixed: Changed 'screen/' to 'screens/' for consistency
+import 'screens/splash_screen.dart';
+import 'screens/login_screen.dart';
+import 'screens/sign_up_screen.dart';
+import 'screens/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
